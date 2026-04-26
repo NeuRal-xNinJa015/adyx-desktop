@@ -1,0 +1,24 @@
+{
+  "name": "adyx-desktop",
+  "version": "1.0.0",
+  "description": "ADYX — Anonymous Communication Desktop App",
+  "main": "main.js",
+  "author": "ADYX Team",
+  "license": "PROPRIETARY",
+  "scripts": {
+    "start": "electron .",
+    "prepackage": "node -e \"const frontendDir = require('path').resolve(__dirname, '..', 'adyx-frontend'); require('child_process').execSync('npx vite build', {stdio: 'inherit', cwd: frontendDir}); require('fs').cpSync(require('path').join(frontendDir, 'dist'), 'app', {recursive: true, force: true})\"",
+    "package": "npx @electron/packager . ADYX --platform=win32 --arch=x64 --out=release --overwrite --icon=assets/icon.ico --asar --app-version=1.0.0 --ignore=\"(release|dist|\\.git|sign\\.js|installer\\.nsi)\" --no-prune",
+    "installer": "\"\"C:\\Program Files (x86)\\NSIS\\makensis.exe\"\" /V3 installer.nsi",
+    "build": "npm run prepackage && npm run package && npm run installer",
+    "server": "node server.js",
+    "server:dev": "PORT=4567 node server.js"
+  },
+  "devDependencies": {
+    "@electron/packager": "^19.0.5",
+    "electron": "^33.3.1"
+  },
+  "dependencies": {
+    "ws": "^8.19.0"
+  }
+}

@@ -1,0 +1,57 @@
+ADYX — End User License Agreement (EULA)
+==========================================
+
+Last Updated: April 2026
+
+BY INSTALLING OR USING ADYX ("THE SOFTWARE"), YOU AGREE TO BE BOUND BY THE
+TERMS OF THIS LICENSE AGREEMENT. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE
+THE SOFTWARE.
+
+1. LICENSE GRANT
+   ADYX Team grants you a non-exclusive, non-transferable, revocable license
+   to install and use the Software on your personal devices for lawful
+   communication purposes.
+
+2. PRIVACY COMMITMENT
+   ADYX is designed with privacy at its core:
+   - No user accounts or registration required
+   - No messages or files are stored permanently
+   - End-to-end encryption protects your communications
+   - No telemetry, analytics, or tracking data is collected
+   - All data is ephemeral and destroyed when sessions end
+
+3. RESTRICTIONS
+   You may NOT:
+   a) Reverse engineer, decompile, or disassemble the Software
+   b) Redistribute, sell, or sublicense the Software
+   c) Use the Software for any unlawful purpose
+   d) Remove or alter any proprietary notices
+   e) Use the Software to distribute malware or harmful content
+   f) Attempt to circumvent security measures
+
+4. INTELLECTUAL PROPERTY
+   The Software and all associated materials are the intellectual property
+   of ADYX Team. This license does not grant you ownership of the Software.
+
+5. DISCLAIMER OF WARRANTIES
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL ADYX TEAM BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM USE OF THE SOFTWARE,
+   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. TERMINATION
+   This license is effective until terminated. It will terminate automatically
+   if you fail to comply with any term. Upon termination, you must destroy
+   all copies of the Software.
+
+8. GOVERNING LAW
+   This agreement shall be governed by applicable local laws.
+
+9. CONTACT
+   For questions about this license, contact the ADYX Team.
+
+Copyright (c) 2026 ADYX Team. All rights reserved.
