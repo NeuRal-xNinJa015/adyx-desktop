@@ -10,7 +10,7 @@ const logger = require('./logger');
 
 // ── Configuration ──
 // Change this to your actual GitHub repo when you publish
-const GITHUB_OWNER = 'adyx-team';
+const GITHUB_OWNER = 'NeuRal-xNinJa015';
 const GITHUB_REPO = 'adyx-desktop';
 const RELEASES_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/latest`;
 const CHECK_DELAY_MS = 10000;  // Wait 10s after app start before checking
